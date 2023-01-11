@@ -49,6 +49,7 @@ function Header() {
         setCartActive(false);
         dispatch(signinSlice.actions.signOut());
         history("/", { replace: false });
+        window.location.reload(false);
     }
 
     function handleUserOrderClick() {
