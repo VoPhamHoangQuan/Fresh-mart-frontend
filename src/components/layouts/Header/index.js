@@ -160,11 +160,11 @@ function Header() {
                                     </div>
                                 </li>
                             ) : (
-                                <a href="/signin">
+                                <Link to="/signin">
                                     <li className={clsx(style.Header_action)}>
                                         <i className="far fa-user"></i>
                                     </li>
-                                </a>
+                                </Link>
                             )}
                             <div
                                 onMouseOver={handleMouseOver}
